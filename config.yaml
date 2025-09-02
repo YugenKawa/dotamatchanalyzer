@@ -1,0 +1,22 @@
+telegram:
+  bot_token: "yourToken"
+  chat_id: "yourChatID == int"
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "user"
+  password: "yourpassword"
+  name: "dota_notifier"
+
+settings:
+  check_interval: "10m"
+  max_matches_per_check: 5
+
+teams:
+  - id: 7119388
+    name: "Team Spirit"
+    game: "dota2"
+  - id: 9247354
+    name: "Team Falcons"
+    game: "dota2"
