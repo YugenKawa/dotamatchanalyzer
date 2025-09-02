@@ -20,7 +20,9 @@
    В него необходимо добавить:
 
    telegram:
+   
      token: "ВАШ_TELEGRAM_BOT_TOKEN"
+   
      chatID: "ВАШ_CHAT_ID"
 
    token — токен вашего Telegram-бота (создаётся через BotFather)
